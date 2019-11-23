@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font: 13pt "Comic Sans MS";
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    margin: 0;
+}
+nav {
+    background-color: darkslategray;
+    text-align: left;
+}
+#menu {
+    width: 32px;
+    margin-top: 5px;
+    margin-left: 7px;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+#menu:hover {
+    cursor: pointer;
+    border: 2px solid yellow;
+    opacity: 0.7;
+}
+aside {
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 15px;
+    width: 240px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    /*display: none;*/
+}
+aside h4 {
+    color: azure;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+footer h4 {
+    color: lightblue;
+}
+aside ul {
+    text-align: left;
+    color: beige;
+    padding-left: 25px;
+}
+aside ul li {
+    padding: 3px 0px;
+}
+aside ul li a {
+    color: beige;
+    text-decoration: none;
+    font-size: 13pt;
+}
+main {
+    position: relative;
+    height: 420px;
+}
+header h1 {
+    color: whitesmoke;
+    font-size: 28pt;
+}
+#slide_box {
+    border: 1px solid silver;
+    border-radius: 15px;
+    width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+}
